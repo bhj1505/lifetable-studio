@@ -2,15 +2,11 @@ package com.lifetable.studio;
 
 import com.lifetable.studio.model.LifeTableRule;
 import com.lifetable.studio.repository.SampleRuleRepository;
-import com.lifetable.studio.service.JexlCalculator;
 import com.lifetable.studio.service.LifeTableCalculator;
-import com.lifetable.studio.service.RuleSelector;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @SpringBootApplication
 public class LifeTableStudioApplication {
